@@ -6,8 +6,8 @@ Section: net
 Architecture: mipsel-3.4
 Installed-Size: 2713600
 Filename: keen-pbr_3.0.0-1_keenetic_mipsel-3.4.ipk
-Size: 1066227
-SHA256sum: 71df1dd5aca089e007b15f52db6c5a9409921f9cd56223eb58491c2676d98e96
+Size: 1065428
+SHA256sum: 24c51bf9b081efe787838df1046e48f341a381691a6c95eadcbfdfa8c1faa10b
 Description:  Policy-based routing daemon for Keen/OpenWRT routers with REST API and WebUI.
 
 Package: keen-pbr-headless
