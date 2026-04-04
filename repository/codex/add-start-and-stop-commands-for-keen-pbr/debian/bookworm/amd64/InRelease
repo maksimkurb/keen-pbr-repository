@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Date: Sat, 04 Apr 2026 21:25:12 +0000
+MD5Sum:
+ eaf6e51a18289d661b7d22b7fdcb4979             1652 Packages
+ c4beb3a651d9c700b18949b4a271d134              716 Packages.gz
+ 68ad308df241d41177b718405a352640               38 Release
+SHA1:
+ 26bb42f80e69be57791df5c5b04b8f65d8b9e7ac             1652 Packages
+ 7adafb9d78d318b10eda71f33b0c0602c74757c7              716 Packages.gz
+ 9e46b2da60fc7e4f52ac06b452cc9f4c0252ecb8               38 Release
+SHA256:
+ df77c4ea145a738ff7fe1f090df66cab6e1780bc336b07ab422f33455c33a177             1652 Packages
+ 97da1885b180a841151ff29de47c97077329d05fc8013e63d649581ad7f0ee3e              716 Packages.gz
+ 6989dd84e3e4f267fc42669396b82a0cd4d23f6cdfdc575ee310edb24e833e96               38 Release
+SHA512:
+ 437b11dca4ec54b655ccb6702dd7950b0db0f1782aa92d6cd68af24cfa2f05d7a9c923c15a92c77439d11aafbcd740e43be836b449343784a9967b1b0e1aa953             1652 Packages
+ b8096884c7491d50a6bb7a7c51dff129a341c81a25738ee3c3b39495dce2481ec8de53af1b7a7cf2617e8708c00f957a697ecd8b467cf834f83dbc3cbd30bf2c              716 Packages.gz
+ cb7aaa77e0941326b739031b477451c87f92da0bec5b145e4df7a890202d25ef6e8d54e304eaaee970c558fc4fa83ef9d33da7ce57ab0793182eeeb028aacb56               38 Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE1z/ODP9vOz6r/weO5U5HUyC4FuoFAmnRgcUACgkQ5U5HUyC4
+Fupvww/8CwM8qZjFdsl9BUbRPnFE4vbSURzPXiHm+3BQsafIBbjeACRGKrN4yfcP
+5FTReDB5dksQseOnBCTo1WJtoGcMZmBZXo+/pSR+JSAK/Ga2Vq7yWfAEmRIJs0bu
+ZXfAlL/elxKNirW4bRNxKWUgIN1y83xMakE5n06hiGwA5Nq6LYNMIgsgaYyLfLis
+GcoDhCu5ae25zYZBeM3y4qdWLXk+nQPsOj/YRTz+2+8XgYUpvfX+D+cPeiEdoqiw
+o4FpWCiD45+8YGzlhXm76h3ryy9egiW94j2CX//p23Hyk+BqFJaGY44SlbYXK90B
+P/utB5AkgOClNf783DEFDZs6wdbXeN5aIx63wnqtRZaSRcAsAx1fqko6jsksqc3K
+hyvml/Oxct1uGuVsSCvHtOpwFu73hvxQow2lB0+gxwTKaQo1tJ8y+KERW+vvRBIb
+R1XyFID3linzZtw8lyn/9RKzkka6vZHELy+wlbTPZ4WikQWzxZqV87nwlQumTPOh
+u7QV19AsvAd59s5EObx38IgpqMCKZgbBjp8Fyo4PnzQoFmbDPmOKyMEWbl+P3Wtm
+LWOjmq0XElp3+Wa1DogphBuO5GwgXk+OEYXcSM2M57ukRVq/fIMKLkCU/dtoi+jA
+enUBJ/5d6ctfSIBORUQXAco1hEqiyJfYTWNPASeZSla5SW0+tBM=
+=ccaa
+-----END PGP SIGNATURE-----
