@@ -4,7 +4,7 @@ Repository root for `feature_repository-split-sign`.
 
 Base URL:
 
-`https://repo.keen-pbr.fyi/feature_repository-split-sign`
+`https://repo.keen-pbr.fyi/repository/feature_repository-split-sign`
 
 ## OpenWrt
 
@@ -14,7 +14,7 @@ Open `/etc/opkg/customfeeds.conf` and add one of these lines:
 
 | Version | Architecture | Feed line |
 | --- | --- | --- |
-| `24.10.4` | `aarch64_cortex-a53` | `src/gz keen-pbr https://repo.keen-pbr.fyi/feature_repository-split-sign/openwrt/24.10.4/aarch64_cortex-a53` |
+| `24.10.4` | `aarch64_cortex-a53` | `src/gz keen-pbr https://repo.keen-pbr.fyi/repository/feature_repository-split-sign/openwrt/24.10.4/aarch64_cortex-a53` |
 
 Then run:
 
@@ -29,7 +29,7 @@ Add one of these repository URLs:
 
 | Version | Architecture | Repository URL |
 | --- | --- | --- |
-| `25.12.2` | `aarch64_cortex-a53` | `https://repo.keen-pbr.fyi/feature_repository-split-sign/openwrt/25.12.2/aarch64_cortex-a53/packages.adb` |
+| `25.12.2` | `aarch64_cortex-a53` | `https://repo.keen-pbr.fyi/repository/feature_repository-split-sign/openwrt/25.12.2/aarch64_cortex-a53/packages.adb` |
 
 Then run:
 
@@ -45,7 +45,7 @@ Open `/opt/etc/opkg/customfeeds.conf` and add one of these lines:
 
 | Version | Architecture | Feed line |
 | --- | --- | --- |
-| `current` | `mipsel` | `src/gz keen-pbr https://repo.keen-pbr.fyi/feature_repository-split-sign/keenetic/current/mipsel` |
+| `current` | `mipsel` | `src/gz keen-pbr https://repo.keen-pbr.fyi/repository/feature_repository-split-sign/keenetic/current/mipsel` |
 
 Then run:
 
@@ -60,7 +60,7 @@ Open `/etc/apt/sources.list.d/keen-pbr.list` and add one of these lines:
 
 | Version | Architecture | Source line |
 | --- | --- | --- |
-| `bookworm` | `amd64` | `deb [trusted=yes] https://repo.keen-pbr.fyi/feature_repository-split-sign/debian/bookworm/amd64 ./` |
+| `bookworm` | `amd64` | `deb [trusted=yes] https://repo.keen-pbr.fyi/repository/feature_repository-split-sign/debian/bookworm/amd64 ./` |
 
 Then run:
 
