@@ -1,0 +1,60 @@
+Package: keen-pbr
+Version: 2.2.2-aarch64-3.10-1
+Depends: dnsmasq-full, ipset, iptables, cron, libc, libssp, librt, libpthread
+Section: net
+URL: https://github.com/maksimkurb/keen-pbr/
+Architecture: aarch64-3.10
+Installed-Size: 6389760
+Filename: keen-pbr-2.2.2-a7e3f18-entware-aarch64-3.10.ipk
+Size: 2571666
+SHA256sum: d3c185257ab2f072545409db211997be920d267921abc9b081e9f765bf893b24
+Description:  Policy-based routing toolkit for Keenetic routers
+
+Package: keen-pbr
+Version: 2.2.2-armv7-3.2-1
+Depends: dnsmasq-full, ipset, iptables, cron, libc, libssp, librt, libpthread
+Section: net
+URL: https://github.com/maksimkurb/keen-pbr/
+Architecture: armv7-3.2
+Installed-Size: 6512640
+Filename: keen-pbr-2.2.2-a7e3f18-entware-armv7-3.2.ipk
+Size: 2611137
+SHA256sum: 35d174f1f12583a2c3cc9a8df4786a14278e67cd286bfa3db07c54a5f6ae50b4
+Description:  Policy-based routing toolkit for Keenetic routers
+
+Package: keen-pbr
+Version: 2.2.2-mips-3.4-1
+Depends: dnsmasq-full, ipset, iptables, cron, libc, libssp, librt, libpthread
+Section: net
+URL: https://github.com/maksimkurb/keen-pbr/
+Architecture: mips-3.4
+Installed-Size: 7239680
+Filename: keen-pbr-2.2.2-a7e3f18-entware-mips-3.4.ipk
+Size: 2528379
+SHA256sum: 3f14b12d0960c0f92950cce9a1979b2ad583a18848169b79ab842157ebabd321
+Description:  Policy-based routing toolkit for Keenetic routers
+
+Package: keen-pbr
+Version: 2.2.2-mipsel-3.4-1
+Depends: dnsmasq-full, ipset, iptables, cron, libc, libssp, librt, libpthread
+Section: net
+URL: https://github.com/maksimkurb/keen-pbr/
+Architecture: mipsel-3.4
+Installed-Size: 7239680
+Filename: keen-pbr-2.2.2-a7e3f18-entware-mipsel-3.4.ipk
+Size: 2487709
+SHA256sum: 2ecf381f86b005b4ca55b6ba12d7350d965bae5803ba0ec2dac39684ac8d95e2
+Description:  Policy-based routing toolkit for Keenetic routers
+
+Package: keen-pbr
+Version: 2.2.2-x64-3.2-1
+Depends: dnsmasq-full, ipset, iptables, cron, libc, libssp, librt, libpthread
+Section: net
+URL: https://github.com/maksimkurb/keen-pbr/
+Architecture: x64-3.2
+Installed-Size: 6656000
+Filename: keen-pbr-2.2.2-a7e3f18-entware-x64-3.2.ipk
+Size: 2810733
+SHA256sum: efdd574f6c98d3f908ef6e589c24f633a23b26a062bd4b5a5b7d918b18aaad18
+Description:  Policy-based routing toolkit for Keenetic routers
+
