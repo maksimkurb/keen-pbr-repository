@@ -1,6 +1,6 @@
 # keen-pbr package repository
 
-Repository root for `feature_repository-split-sign`.
+Repository root for `repository/feature_repository-split-sign`.
 
 Base URL:
 
