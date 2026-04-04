@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Date: Sat, 04 Apr 2026 20:20:33 +0000
+MD5Sum:
+ 6eeff5a504ec12ae1593d0d0d663ca71             1652 Packages
+ 8d290ed0617c1ce9cfba18c3b4570272              719 Packages.gz
+ fcb92309e4eb6dc8f0510751cefd1d0a               38 Release
+SHA1:
+ 9db65f0b5dc7182e23a17b41828a3a9c6e074e7c             1652 Packages
+ 3c52ad76dcfe7e12b6dd043f72e7bbb09f40db36              719 Packages.gz
+ 2fbab64df6acbf2e78aaf645fe9ec252c559e609               38 Release
+SHA256:
+ f4dbd58daecc4814935591adc9e08a9cfb65cba5f66eff7810888b8ab408299f             1652 Packages
+ 411a34605f9726a8962a4351d78b9507644d195aa0a3be7374935626a69d4ed9              719 Packages.gz
+ 904e61559e91b425fb7fc79c3cfc94066947cac24b91f6c653b67c01fd1e9f18               38 Release
+SHA512:
+ 2d56cb1864b5839fb743c27b0ce4ec1491a384655b5b98f116b1a0b3fcc7e2e16c2e544906d739c26617edbd804876ff8a4aba3a0d2a7fd8a736c44f75becf2b             1652 Packages
+ 64249ace26758616c621bd22232ecc260352abd8c9d809d09d12ea63923eab7809acdde8cd89e87892c6f4322b1e19ef47a33d5527e928a68af1fbe41e56a1a7              719 Packages.gz
+ 7124f18b2a7e5164c205f7de27819d782a2d12bb175a8787910fe47578f68499139d52fd1fccbf104a1e3f067ca01ae4201f8c9de7149149b9ab1c5830a0a301               38 Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE1z/ODP9vOz6r/weO5U5HUyC4FuoFAmnRcp4ACgkQ5U5HUyC4
+Fuom9Q/8CObSFBTkpqah9w07lvP0eP7Qno9ohvv/QaBW4ExFk/1wImJucSZPe+TB
+Vd9/8ao6vHbtOBSdCr5pNT301see3BsClCDNRhycENDurXgcAGVHsC5/NaNIurZJ
+hih2dpqisNM1abuzrSioGYG88GEt8+9iHxpI1v6GAK1GPzvWAIiQJXxB14HzRbrL
+pQTg2mybIn4uPS+iNO58IzvkKqpxGqCYOPOvQ4/cN4IzuAVhxxa1+CjLfuhVAgTJ
+2urTtw/V3/8gVSgtA/h09bEDofxZnojufdt1ttXRUZeU1H/mf22l8c9AWf8ud9a7
++pnMlBsBnbKNFIhrcewV0HgmI7U0BLzcI3zU1tDAovFbo+k3FPOkQm3G28YY0/Fj
+XtxnMfSGBxQNxhJwrhE67uDR9rHEmTqBe6fXLcGOPTIrTtYbM6LnyE1OQ10nn+Gg
+xWhV9hkBWNFuctn08y4osAmawQ1wqK9xdyVSle5iGdc23Ee2urJD5yRitysN70zs
+5pvO9GwpZQxa098DTp7s0Rr13TEBNw4oS2mtbczepKemdWxq7gTRoe9FD8M5eQuQ
+pyXMBH25WTWrMo50MJHOTS9pnNaR8DxS48BO5FcQgHrcbkKMH2tJYZr+xRCUtXaN
+Hh4DvujX/66ls+b/2T3YR0aFT1wrjiG2K9o/uyOHwhsSWNPxGJw=
+=q80N
+-----END PGP SIGNATURE-----
