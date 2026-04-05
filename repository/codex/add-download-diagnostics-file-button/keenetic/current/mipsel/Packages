@@ -1,0 +1,24 @@
+Package: keen-pbr
+Version: 3.0.0-1
+Depends: libc, libssp, librt, libpthread, libatomic, libcurl, libnl-core, libnl-route, libstdcpp, zlib, libzstd
+Provides: keen-pbr-any
+Section: net
+Architecture: mipsel-3.4
+Installed-Size: 2856960
+Filename: keen-pbr_3.0.0-1_keenetic_mipsel-3.4.ipk
+Size: 1119774
+SHA256sum: 7eb542c603306e925d5565b1fb10aff1057cd66d1e6a913ab5307090c21dc8ce
+Description:  Policy-based routing daemon for Keen/OpenWRT routers with REST API and WebUI.
+
+Package: keen-pbr-headless
+Version: 3.0.0-1
+Depends: libc, libssp, librt, libpthread, libatomic, libcurl, libnl-core, libnl-route, libstdcpp, zlib, libzstd
+Provides: keen-pbr-headless-any
+Section: net
+Architecture: mipsel-3.4
+Installed-Size: 1198080
+Filename: keen-pbr-headless_3.0.0-1_keenetic_mipsel-3.4.ipk
+Size: 436006
+SHA256sum: b7b4a88b3d27fdb1459d5b44745da29148e09af2221bb2fca885f6370b455e91
+Description:  Policy-based routing daemon for Keen/OpenWRT routers without REST API and WebUI.
+
