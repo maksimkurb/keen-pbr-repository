@@ -9,16 +9,16 @@
       catalogKey: "keenetic"
     },
     {
-      id: "openwrtApk",
-      label: "OpenWrt APK (25.x+)",
-      description: "APK repository for newer OpenWrt releases.",
-      catalogKey: "openwrtApk"
-    },
-    {
       id: "openwrtOpkg",
-      label: "OpenWrt IPK (24.x and lower)",
+      label: "OpenWrt 24.x and lower",
       description: "Classic opkg/ipk feed for older OpenWrt releases.",
       catalogKey: "openwrtOpkg"
+    },
+    {
+      id: "openwrtApk",
+      label: "OpenWrt 25.x+",
+      description: "APK repository for newer OpenWrt releases.",
+      catalogKey: "openwrtApk"
     },
     {
       id: "debian",
@@ -244,7 +244,7 @@
     }).join("");
   }
 
-  function attachInteractions(root, state, config) {
+  function attachInteractions(root, state) {
     var systemSelect = root.querySelector("[data-system-select]");
     var archSelect = root.querySelector("[data-arch-select]");
     var buttons = root.querySelectorAll(".copy-button");
@@ -345,7 +345,7 @@
       "</div>"
     ].join("");
 
-    attachInteractions(root, state, config);
+    attachInteractions(root, state);
   }
 
   function renderRepositoryInstructions(config) {
