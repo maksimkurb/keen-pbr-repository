@@ -1,0 +1,22 @@
+Package: keen-pbr-headless
+Version: 3.0.0-1
+Depends: libc, libcurl4, libnl-core200, libnl-route200, libstdcpp6, zlib, libzstd
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 1013760
+Filename: keen-pbr-headless_3.0.0-1_openwrt_24.10.4_mediatek_filogic_aarch64_cortex-a53.ipk
+Size: 357556
+SHA256sum: 351b6e16ce7ec7d928a84ee204897e51151108e3d8896763d88a6f657685ee28
+Description:  Policy-based routing daemon for Keen/OpenWRT routers without REST API and WebUI.
+
+Package: keen-pbr
+Version: 3.0.0-1
+Depends: libc, libcurl4, libnl-core200, libnl-route200, libstdcpp6, zlib, libzstd
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 2672640
+Filename: keen-pbr_3.0.0-1_openwrt_24.10.4_mediatek_filogic_aarch64_cortex-a53.ipk
+Size: 1058738
+SHA256sum: 2d4a60d67c05806e3860540c6b5d0feb5b9fa406d7f0209ba96f3e78173c941f
+Description:  Policy-based routing daemon for Keen/OpenWRT routers with REST API and WebUI.
+
