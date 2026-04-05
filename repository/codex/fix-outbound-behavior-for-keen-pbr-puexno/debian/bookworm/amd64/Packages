@@ -1,0 +1,38 @@
+Package: keen-pbr
+Version: 3.0.0-1
+Architecture: amd64
+Maintainer: Maxim Kurbatov <maxim+keen-pbr@kurb.me>
+Installed-Size: 2849
+Depends: libc6 (>= 2.38), libcurl4t64 (>= 7.16.2), libgcc-s1 (>= 3.3.1), libnl-3-200 (>= 3.2.7), libnl-route-3-200 (>= 3.2.7), libstdc++6 (>= 12), dnsmasq
+Filename: ./keen-pbr_3.0.0-1_debian_amd64.deb
+Size: 1127008
+MD5sum: 539a610c713ba4c3dbdfb35313750676
+SHA1: 3666eadff74520f93b1a2c73f73ba2c6e2d44258
+SHA256: e490a0495401f9e6e68414d5d5ffe4bf6ec5599f1bf2c7577a3574ce28424114
+Section: net
+Priority: optional
+Homepage: https://github.com/maksimkurb/keen-pbr
+Description: Policy-based routing daemon with REST API and Web UI
+ keen-pbr routes traffic selectively by IPs, CIDRs, and domains.
+ This package includes the daemon, REST API, dnsmasq integration helper,
+ and bundled frontend assets.
+
+Package: keen-pbr-headless
+Version: 3.0.0-1
+Architecture: amd64
+Maintainer: Maxim Kurbatov <maxim+keen-pbr@kurb.me>
+Installed-Size: 1195
+Depends: libc6 (>= 2.38), libcurl4t64 (>= 7.16.2), libgcc-s1 (>= 3.3.1), libnl-3-200 (>= 3.2.7), libnl-route-3-200 (>= 3.2.7), libstdc++6 (>= 12), dnsmasq
+Filename: ./keen-pbr-headless_3.0.0-1_debian_amd64.deb
+Size: 460450
+MD5sum: 6caa9793aa4ffd5015d7b1397d8c72fc
+SHA1: 94f48f1a42ed98d6da13aa09e53901c477e6de90
+SHA256: c88abab8c4ebcbc1882cf6591e3a3455487db68ac4c983e91438714da510cf5e
+Section: net
+Priority: optional
+Homepage: https://github.com/maksimkurb/keen-pbr
+Description: Policy-based routing daemon without REST API and Web UI
+ keen-pbr routes traffic selectively by IPs, CIDRs, and domains.
+ This package installs the daemon and helper scripts without the REST API
+ or frontend assets.
+
