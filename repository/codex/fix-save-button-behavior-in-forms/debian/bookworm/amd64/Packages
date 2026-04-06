@@ -5,10 +5,10 @@ Maintainer: Maxim Kurbatov <maxim+keen-pbr@kurb.me>
 Installed-Size: 2855
 Depends: libc6 (>= 2.38), libcurl4t64 (>= 7.16.2), libgcc-s1 (>= 3.3.1), libnl-3-200 (>= 3.2.7), libnl-route-3-200 (>= 3.2.7), libstdc++6 (>= 12), dnsmasq
 Filename: ./keen-pbr_3.0.0-1_debian_amd64.deb
-Size: 1129052
-MD5sum: 6335dcfe58b647e53faf114adf168fe6
-SHA1: 713b78fd13f0acb7182122db4e0f8d33715ec5e2
-SHA256: 5b5026494c7319470749ecb89a9f9e512b1c270b46fee04c7868d899fd200576
+Size: 1129132
+MD5sum: cc99b0930588ae213987a9a88c9f5aaf
+SHA1: 7ba9dd31c60d943163cb76f15ebc34bd2d6a68a9
+SHA256: 4bb7af5f175996a3a966214e8ee427931fac178685789d3891ef03690d63f9c5
 Section: net
 Priority: optional
 Homepage: https://github.com/maksimkurb/keen-pbr
