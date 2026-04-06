@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Date: Mon, 06 Apr 2026 21:03:15 +0000
+MD5Sum:
+ b8d3b720f8138d0dc20b95e7fa1ffa10             1652 Packages
+ 4256edf5920489f73c58ba47dd1d21b4              714 Packages.gz
+ 9a2ba23d2a8053593cb37f7eb0bd6c61               38 Release
+SHA1:
+ 442a6df74c87114d70265e060ac98058df1efbf8             1652 Packages
+ ed9c7141ba67182b4998504662c3a53bdfe4710c              714 Packages.gz
+ c0b901befc58f508663c534bf265927ca9310125               38 Release
+SHA256:
+ 3d4597cf259ebc366ec39e3cd7d8755182adcfdc435e5801d3687312d6e1ab7b             1652 Packages
+ e1f606d4ecdd78677569709e275c7da3155db1545746edbdf92b1eb70c27e5fb              714 Packages.gz
+ 2acf02aed016b43f4433072122dd6a3ba8b0e55ed4c21087eac9eadfb5d3a512               38 Release
+SHA512:
+ e41c78bf0aea2fdf7e49fa0d2500039fce12531d4f9863b4ebee961c86f425575d191fb5308043a448661ef0cf08577fd4657708af34e28fb1a547e692ffd923             1652 Packages
+ e5ea948a5000f90cf65d681890f5958dbaf0bb795a60ecc8b9478731c3cf14d5e71c5b27955c21ce399725f37c9a949bb95c92ead77d23eb9bcd2d621635029a              714 Packages.gz
+ cd1030b1549a6b1a38826a665a73be27a17a2a74e2f915c1910cafe66999acd61c21f1fbf7bce3ee9877b3a9714851af9204ebe56a2cbad6618dd592cdbd2208               38 Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE1GH9cxD/SFPot2ZmsmmNZr/9Vw4FAmnUH6EACgkQsmmNZr/9
+Vw7GRw//eSuhy2lyjj+BW5ORXuNJUAhvw2ln4ej4ViD2svDSyHBLkbqKhJXhJ51a
+fPFwVU03k7dbbdGitVUOV+BZCb6dbZzJHYZ/cdOPFmYPmU+KYt9kngNzpsgmAMQo
+HXRZRkDsT0HlTTSzfUhZ8nitXFNuoCFo6KX02FXYsRFJ3Zpnx7LG64/6nooLZZFS
+Qc5okgLWIvnzVPg+1LQWdC1ZVtyH5cHkn2YCxW4ZFV+V0TZcY44C5rtWgFdrtO5E
+quFGvOQKhwzVWscI+kumUqUU2ifnEn/WZhDdrcxENBhpE39yxmoPOBRGWa9+5t9w
+fVJc2u+AHIyhgTybjQ3YEhAIG0fb3e0zSKm28xKfDO6jA9hq9VwllV3TTGS6J8fW
+uJOmvnoUJ9U7UhjmJmfPwwrMrAikFYCLIrU0w08qceYS5KQohReRb/rPmr0bBz21
+ZPpuhkMv7xrA6F9pHrzp5y3e/1Haq27hX1My187Li1oWfCdZ/9wU1tx/Zt4ivgpC
+wfcktMJ7k+o9Ib8RqPGfweamBw6zf2TW3cyuVSYBydy+fqtXIsAwE4WASaXmB4We
+Q7LwVksehzfjp/A+1XR6QPIVQT67JEMaJIcp8JIZT6t0S+fD6Eisvu+Q/q3uYZxg
+dUgmFkrbkqOZ9PGXtr6yG2lqS80ebA/Gb56LfQnu+i4vceSdwYE=
+=qdwC
+-----END PGP SIGNATURE-----
