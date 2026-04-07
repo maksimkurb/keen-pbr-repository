@@ -16,7 +16,7 @@ Section: net
 Architecture: aarch64_cortex-a53
 Installed-Size: 2744320
 Filename: keen-pbr_3.0.0-1_openwrt_24.10.4_mediatek_filogic_aarch64_cortex-a53.ipk
-Size: 1100345
-SHA256sum: 2fa55e75a961b002811819515810383c90fbb021708b4c9f8034128847e6c472
+Size: 1100240
+SHA256sum: bd529ef3a410a63b9d01a01b39927280ace4ddd45bedfc9f56088bdc69399ad2
 Description:  Policy-based routing daemon for Keen/OpenWRT routers with REST API and WebUI.
 
