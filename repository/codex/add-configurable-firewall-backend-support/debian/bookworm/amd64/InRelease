@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Date: Fri, 10 Apr 2026 13:02:33 +0000
+MD5Sum:
+ e61885bc2a937fd10e53423a108c03a1             1652 Packages
+ 1926cb6844271762580de871b826f598              714 Packages.gz
+ 3aebfd37e91353db681ec8eba561e032               38 Release
+SHA1:
+ d07b6e86706e86a42b91b49c65776b7ea7844c12             1652 Packages
+ 73ed7a12ab5f5d289aa2736f6b8ef26940bcbe21              714 Packages.gz
+ bab05e0ab77efbf805fee4cd56cba8589defa36f               38 Release
+SHA256:
+ 27c6930c8f686219d3f8cc42893f5e90e86aa1c7ef59eceeeb2046c2cb1c09c0             1652 Packages
+ 08705d4c52cf4b2d10b8736e7e36bcff108df28ad644def29438c398ba01430c              714 Packages.gz
+ 816bd2169f8ef4c2655be75f4a0b453c3256ea82eb37e6eac25707c1cd2de092               38 Release
+SHA512:
+ 89c2fd4c0b2a73a1ac903eb012ce323d283f9a7c0a9c5b84a8e85befc3e2f2785bdef8d3498a743b557d4586b83a188005deeab42c9550ddd3579adb31f7e96c             1652 Packages
+ f8a87f6b4c46f988fc51996b1b05c11e50108b10c9c608f4bf2dfba3792d3511f063e598ea5e5b229d1d0b0055f75b8599bdb9affe92b8f51cf9c5fba51bdb48              714 Packages.gz
+ e336247c088e69611c61678c6db1c1d4ba145cda571711ac9feb24c5146b81ef5693d045c6bdaf82eadb638933f9e9853d28aaf346d86fc18a5127dc18c3c0f9               38 Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE1GH9cxD/SFPot2ZmsmmNZr/9Vw4FAmnY9QAACgkQsmmNZr/9
+Vw7uBA//fuveKOdbVGIe+caIAZw2AEzBO77PFs4IkGlYNsIU60j0OXg/UiDLncul
+GvWYByBM+yh5HlyY0jFjgk+p42uwGSlEflWgwg6Ai/u6aYc2rx1KKVcCT/K+j/st
+Uo1s9YSFxmmRD7qWGz25KSjdxohBQ0IVvTEMvtq+JKvTjZDBaDW2na3tHh3KZyEQ
+9CTrlkxQadmDh7peHflQiv67FDRGaItzDWGwJYcVonYQ+GbkSX9NQrYMAgcGSQ5O
+PG7Pl48cJyagrozycKnHVUhfkwlU+cD8oWoGancy8sMI2nGZYMebRFtxk5ak5B+F
+iBlw8rIgsZe0X1xvXrU5b7bXpRvB8D70tloFvQtv71cpfp5TK8Dmpu9Z2mKe/pM9
+fF+AAUU9ZbSWgBrJPZfC//LClxZtr738yabk9/YIiPGzWbeNDf8kelD2sNn6MV34
+aIvWmGzKGZAF1+5tJvXIO8hAWoZqh4byKzanH261LxsONVuf5vqCT7HR9IcWc+6V
+USVydwE1Ejj8xF2ZFN/xTl+KZm3A+y6L5gsQGl+UKUCug64zREArGq2USfcAB+VP
+rJZwCpqbWjrEgNyjau0fBBml8dWgBvtXgc4Z4DqBEcGTWdrGfNm8kUF2UWRy2bpl
+18O4P5w04hNNw//nVqHxTyr76GzmfZX6vI0zbo47kNU27+QAVLo=
+=3sMU
+-----END PGP SIGNATURE-----
