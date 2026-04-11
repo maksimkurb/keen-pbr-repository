@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>keen-pbr repository instructions</title>
+  <link rel="stylesheet" href="/assets/repository-page.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script id="repository-page-data" type="application/json">{"baseUrl":"https://repo.keen-pbr.fyi/repository/codex/add-interfacemonitor-component","targetRoot":"repository/codex/add-interfacemonitor-component","source":{"type":"branch","name":"codex/add-interfacemonitor-component","refLabel":"Branch codex/add-interfacemonitor-component","refUrl":"https://github.com/maksimkurb/keen-pbr/tree/codex/add-interfacemonitor-component","prNumber":"105","prUrl":"https://github.com/maksimkurb/keen-pbr/pull/105"},"catalog":{"keenetic":[{"version":"current","arch":"mipsel","feedLine":"src/gz keen-pbr https://repo.keen-pbr.fyi/repository/codex/add-interfacemonitor-component/keenetic/current/mipsel"}],"openwrtOpkg":[{"version":"24.10.4","arch":"aarch64_cortex-a53","feedLine":"src/gz keen-pbr https://repo.keen-pbr.fyi/repository/codex/add-interfacemonitor-component/openwrt/24.10.4/aarch64_cortex-a53"}],"openwrtApk":[{"version":"25.12.2","arch":"aarch64_cortex-a53","repositoryUrl":"https://repo.keen-pbr.fyi/repository/codex/add-interfacemonitor-component/openwrt/25.12.2/aarch64_cortex-a53/packages.adb"}],"debian":[{"version":"bookworm","arch":"amd64","sourceLine":"deb [signed-by=/usr/share/keyrings/keen-pbr-archive-keyring.asc] https://repo.keen-pbr.fyi/repository/codex/add-interfacemonitor-component/debian/bookworm/amd64 ./"}]}}</script>
+  <script src="/assets/repository-page.js"></script>
+  <script>
+    window.renderRepositoryInstructions(
+      JSON.parse(document.getElementById("repository-page-data").textContent)
+    );
+  </script>
+</body>
+</html>
