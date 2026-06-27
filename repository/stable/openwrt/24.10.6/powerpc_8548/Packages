@@ -1,0 +1,22 @@
+Package: keen-pbr
+Version: 3.0.6-20260603075153
+Depends: libc, dnsmasq-full, libatomic1, libcurl4, libnl-core200, libnl-route200, libstdcpp6, zlib, libzstd
+Section: net
+Architecture: powerpc_8548
+Installed-Size: 3758080
+Filename: keen-pbr_3.0.6-20260603075153_openwrt_24.10.6_powerpc_8548.ipk
+Size: 1390327
+SHA256sum: fa41808577c79d4203748d67c884d1105596321e7087576fd8740a92835a003b
+Description:  Policy-based routing daemon for OpenWRT and Keenetic routers with REST API and WebUI
+
+Package: keen-pbr-headless
+Version: 3.0.6-20260603075153
+Depends: libc, dnsmasq-full, libatomic1, libcurl4, libnl-core200, libnl-route200, libstdcpp6, zlib, libzstd
+Section: net
+Architecture: powerpc_8548
+Installed-Size: 1802240
+Filename: keen-pbr-headless_3.0.6-20260603075153_openwrt_24.10.6_powerpc_8548.ipk
+Size: 615339
+SHA256sum: d9fdf2e36f24dc2be38f2c8a479e7b2a0811cfa4139efd4045c7950de6412dfe
+Description:  Policy-based routing daemon for OpenWRT and Keenetic routers. REST API and WebUI are NOT included in the headless variant.
+

@@ -1,0 +1,76 @@
+Package: keen-pbr
+Version: 3.0.0-20260418224746
+Architecture: amd64
+Maintainer: Maxim Kurbatov <maxim+keen-pbr@kurb.me>
+Installed-Size: 3140
+Depends: libc6 (>= 2.38), libcurl4t64 (>= 7.16.2), libgcc-s1 (>= 3.3.1), libnl-3-200 (>= 3.2.7), libnl-route-3-200 (>= 3.2.21), libstdc++6 (>= 12), libunwind8, dnsmasq
+Filename: ./keen-pbr_3.0.0-20260418224746_debian_amd64.deb
+Size: 1235194
+MD5sum: a26882c4c7438ebbc1606352611cdddf
+SHA1: dfdc592c7b752d95818d55c5917c8c3af5ff09af
+SHA256: d2fbe6de1246f329a5184e6c0d4ee2d43ab8ad9e47c10f66e2f09a2b9e06f65e
+Section: net
+Priority: optional
+Homepage: https://github.com/maksimkurb/keen-pbr
+Description: Policy-based routing daemon with REST API and Web UI
+ keen-pbr routes traffic selectively by IPs, CIDRs, and domains.
+ This package includes the daemon, REST API, dnsmasq integration helper,
+ and bundled frontend assets.
+
+Package: keen-pbr-headless
+Version: 3.0.0-20260418224746
+Architecture: amd64
+Maintainer: Maxim Kurbatov <maxim+keen-pbr@kurb.me>
+Installed-Size: 1541
+Depends: libc6 (>= 2.38), libcurl4t64 (>= 7.16.2), libgcc-s1 (>= 3.3.1), libnl-3-200 (>= 3.2.7), libnl-route-3-200 (>= 3.2.21), libstdc++6 (>= 12), libunwind8, dnsmasq
+Filename: ./keen-pbr-headless_3.0.0-20260418224746_debian_amd64.deb
+Size: 587946
+MD5sum: b729d320fc287cbd09c3fd8c5320695c
+SHA1: 7d96d550b9bbb48005035cb0b7dcf48c515d9889
+SHA256: a59843fb1522792bc03b7683774b34d476b2326fe0193bada61e297c7fcd215e
+Section: net
+Priority: optional
+Homepage: https://github.com/maksimkurb/keen-pbr
+Description: Policy-based routing daemon without REST API and Web UI
+ keen-pbr routes traffic selectively by IPs, CIDRs, and domains.
+ This package installs the daemon and helper scripts without the REST API
+ or frontend assets.
+
+Package: keen-pbr-dbgsym
+Package-Type: ddeb
+Source: keen-pbr
+Version: 3.0.0-20260418224746
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Maxim Kurbatov <maxim+keen-pbr@kurb.me>
+Installed-Size: 16596
+Depends: keen-pbr (= 3.0.0-20260418224746)
+Filename: ./keen-pbr-dbgsym_3.0.0-20260418224746_debian_amd64.ddeb
+Size: 15740832
+MD5sum: d9db265c7f4c2d4dbe2d91c8eb7daca5
+SHA1: c6118f4eb783b5d4c9a3c04b9fddafe82f400b7a
+SHA256: b40574cca18579a954c9fd66f082c9b5cb11e1960ecf718528f51106a0bc7b51
+Section: debug
+Priority: optional
+Description: debug symbols for keen-pbr
+Build-Ids: 6e0e4928810880dbc0110b1c7989f797dc6c373a
+
+Package: keen-pbr-headless-dbgsym
+Package-Type: ddeb
+Source: keen-pbr-headless
+Version: 3.0.0-20260418224746
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Maxim Kurbatov <maxim+keen-pbr@kurb.me>
+Installed-Size: 11434
+Depends: keen-pbr-headless (= 3.0.0-20260418224746)
+Filename: ./keen-pbr-headless-dbgsym_3.0.0-20260418224746_debian_amd64.ddeb
+Size: 10867130
+MD5sum: f24511978d48c233b28ce54ea3fa76f5
+SHA1: 63b1dbcc4ad433ab61b2a41d11dbe77e45fbac22
+SHA256: 35980c354be701b060a670bc59963ea86699e7e9a04665dd844182f45d4d4560
+Section: debug
+Priority: optional
+Description: debug symbols for keen-pbr-headless
+Build-Ids: 9d71019eef94167543910ecfbd00f550387865df
+

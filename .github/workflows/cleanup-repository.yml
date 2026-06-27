@@ -1,0 +1,139 @@
+name: Cleanup repository branches
+
+on:
+  schedule:
+    - cron: '30 19 * * *'
+      timezone: "America/New_York"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  REPOSITORY_ROOT: repository
+  PROTECTED_BRANCH_MASKS: "stable main dev-*"
+  RETENTION_DAYS: "30"
+  HISTORY_COMMITS_TO_KEEP: "10"
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git lfs install --local
+
+      - name: Remove expired repository folders
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          root="${REPOSITORY_ROOT}"
+          retention_days="${RETENTION_DAYS}"
+          cutoff_epoch="$(date -u -d "${retention_days} days ago" +%s)"
+          protected_masks="${PROTECTED_BRANCH_MASKS}"
+          removed_any=0
+          branch_name="${GITHUB_REF_NAME}"
+          history_keep="${HISTORY_COMMITS_TO_KEEP}"
+
+          if [[ ! -d "$root" ]]; then
+            echo "Directory '$root' not found. Nothing to clean."
+            removed_any=0
+          fi
+
+          is_protected() {
+            local name="$1"
+            local mask
+            for mask in $protected_masks; do
+              if [[ "$name" == $mask ]]; then
+                return 0
+              fi
+            done
+            return 1
+          }
+
+          dir_epoch() {
+            local dir="$1"
+            local birth_epoch
+            birth_epoch="$(stat -c %W "$dir")"
+
+            if [[ "$birth_epoch" =~ ^-?[0-9]+$ ]] && (( birth_epoch > 0 )); then
+              echo "$birth_epoch"
+            else
+              stat -c %Y "$dir"
+            fi
+          }
+
+          if [[ -d "$root" ]]; then
+            while IFS= read -r -d '' dir; do
+              name="$(basename "$dir")"
+
+              if is_protected "$name"; then
+                echo "Keep protected folder: $dir"
+                continue
+              fi
+
+              created_epoch="$(dir_epoch "$dir")"
+
+              if (( created_epoch > cutoff_epoch )); then
+                echo "Keep recent folder: $dir"
+                continue
+              fi
+
+              iso_time="$(date -u -d "@$created_epoch" +%FT%TZ)"
+              echo "Remove expired folder: $dir (timestamp: $iso_time)"
+
+              git rm -r --ignore-unmatch -- "$dir" || true
+              rm -rf -- "$dir"
+              removed_any=1
+            done < <(find "$root" -mindepth 1 -maxdepth 1 -type d -print0)
+          fi
+
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: remove expired repository folders"
+          else
+            echo "No cleanup commit needed."
+          fi
+
+          commit_count="$(git rev-list --count HEAD)"
+          if (( commit_count <= history_keep )); then
+            echo "History already within limit: $commit_count commits."
+            if (( removed_any == 1 )); then
+              git push origin "HEAD:${branch_name}"
+            fi
+            exit 0
+          fi
+
+          mapfile -t keep_commits < <(git rev-list --reverse --max-count="$history_keep" HEAD)
+          root_commit="${keep_commits[0]}"
+
+          if git rev-list --min-parents=2 "${root_commit}^..HEAD" | grep -q .; then
+            echo "Merge commits found in last ${history_keep} commits. Stop to avoid bad rewrite."
+            exit 1
+          fi
+
+          rewrite_branch="history-rewrite/${branch_name}"
+          current_head="$(git rev-parse HEAD)"
+
+          git checkout --orphan "$rewrite_branch" "$root_commit"
+          git commit --allow-empty -C "$root_commit"
+
+          for commit in "${keep_commits[@]:1}"; do
+            git cherry-pick "$commit"
+          done
+
+          rewritten_head="$(git rev-parse HEAD)"
+          echo "Rewrote $branch_name from $current_head to $rewritten_head keeping last ${history_keep} commits."
+
+          git checkout -B "$branch_name" "$rewritten_head"
+          git branch -D "$rewrite_branch"
+          git push --force-with-lease origin "HEAD:${branch_name}"

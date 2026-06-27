@@ -1,0 +1,24 @@
+Package: keen-pbr
+Version: 3.0.6-20260603075153
+Depends: libc, libssp, librt, libpthread, dnsmasq, ipset, iptables, libatomic, libcurl, libnl-core, libnl-route, libstdcpp, zlib, libzstd
+Provides: keen-pbr-any
+Section: net
+Architecture: armv7-3.2
+Installed-Size: 2979840
+Filename: keen-pbr_3.0.6-20260603075153_keenetic_armv7-3.2.ipk
+Size: 1278530
+SHA256sum: 52784e06d4b6e961e5815ed7eede7fef8a825bd5db80789e4049983e2208888c
+Description:  Policy-based routing daemon for OpenWRT and Keenetic routers with REST API and WebUI.
+
+Package: keen-pbr-headless
+Version: 3.0.6-20260603075153
+Depends: libc, libssp, librt, libpthread, dnsmasq, ipset, iptables, libatomic, libcurl, libnl-core, libnl-route, libstdcpp, zlib, libzstd
+Provides: keen-pbr-headless-any
+Section: net
+Architecture: armv7-3.2
+Installed-Size: 1290240
+Filename: keen-pbr-headless_3.0.6-20260603075153_keenetic_armv7-3.2.ipk
+Size: 553508
+SHA256sum: 7a0d3e7f792c9772f027ab8b3b01969b23a899f4a2ee5a96eee2e3ecf623c1a6
+Description:  Policy-based routing daemon for OpenWRT and Keenetic routers. REST API and WebUI are NOT included in the headless variant.
+

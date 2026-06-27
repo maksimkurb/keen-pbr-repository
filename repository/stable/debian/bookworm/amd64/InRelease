@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Date: Wed, 03 Jun 2026 10:23:49 +0000
+MD5Sum:
+ 0c40a4754011105144c885021fb7b35f             3232 Packages
+ c95fa089637e58e3acf891160576b46d             1163 Packages.gz
+ bdabbe9ba6248620c00d52bf069e2539               38 Release
+SHA1:
+ 2ed5bcbad021a47785a9c8e6100f13c91359e92b             3232 Packages
+ 9403a6cf89f05aaef0e4aa2980ef06aeb407885d             1163 Packages.gz
+ e229ece6366e45eb294f5fb7e5e6a3c589ebec79               38 Release
+SHA256:
+ 88f8c0236489e0560ca090e3fcd4d32ab71e51528ae9277f2350a4138fb10238             3232 Packages
+ b882e27396fa3da13475c62b54e443a69ede5d9d0cdf317328c2ab8c938440da             1163 Packages.gz
+ 72cfa91dd08185deee90cf1b9c1f0cd3a2bdc9b791dfff8c9139d8b724900b9d               38 Release
+SHA512:
+ 934a38f04ffd2dd30716e4bc7db555635b870c597b0ee12dd75e7a9718736c24aaea236880bf2c91991e857b23e31a485e13cc559e5ef08b7252899c05afba85             3232 Packages
+ e1fedfb617b50a6e25153f5443a83d5c750151728406aa7bbf3daba7800e2cceb1af6f1019c55e070b52e796a8183691440f87aa648cf2b3f1906588349bd099             1163 Packages.gz
+ 4ebbcd6f5cd83a5137cdd58d740b9faeb45ae076bca21f557862bcb72279990479875449b0a6b383ce6c0523c84f06b0cee7e386609a085d986a29c79bf4398e               38 Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIyBAEBCgAdFiEE1GH9cxD/SFPot2ZmsmmNZr/9Vw4FAmogAhwACgkQsmmNZr/9
+Vw72RA/43ZceYmidI7uQ3x+zJySISD/wpHOUbMguJ/bSAjQlv9AKPwhVYl1pIzCT
+6fTu8Cca+DwXc/0AXsKsczp+V2QN2kniQg9DAIa2WsPVzr+VH3pmbMoH6YSDCbOE
+KLxr8JXfRMCeNj0B7qcucYzLXJcgM8kgOkwMc7DgasnrJojjl5+Gxtc47+yXbzb/
+44jdRPU8d2f5vHvBRE04VoNk+mne1giVjUyYDDh7pkFNm+gn3/4sepi06qlufQ+2
+MvGi6TPpQpRWZTQmxYpK6EK79f0u678wm163kDdki1fu7CFvz+Y1vj+FyeLu8pMv
+dvP0V6uZZJp3cAstsJqY3tJ9qHQm5yt4ipoT6jmre2P2/NOB1sw23ORcguC8m4W0
+iwpwF34UN+QlabGPBWIXblcfBJXjuE0w2ATWh09gN1dcscrTAxjgGPLFFNbZNXWl
+/9ed9gFV4pPfvX8ksTDiszehygwEIJJYxcPw5ncG+gBGkDnQ1OaHmik5suD2RHFn
+9uWQGsA7iOcofgfOGs36TKe4YDODW8zQGv7A1L0pQvwm7KcnfAhoguMtekutsslJ
+JBcZ1eAdfXRkUPElEZMQuwrntbDqkqsSMbTCuR54iVxiKniicVkFlfO7R4rsNmLl
+60AdAQzhhwDuA9gfJ+spqLX6RdQb4ZbFFzkhEfCEEFOKNH2hFA==
+=MLkp
+-----END PGP SIGNATURE-----
