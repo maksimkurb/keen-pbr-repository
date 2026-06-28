@@ -1,22 +1,22 @@
 Package: keen-pbr
-Version: 3.0.6-20260603075153
+Version: 3.0.6-20260627203002
 Depends: libc, dnsmasq-full, libatomic1, libcurl4, libnl-core200, libnl-route200, libstdcpp6, zlib, libzstd
 Section: net
 Architecture: mipsel_74kc
 Installed-Size: 2836480
-Filename: keen-pbr_3.0.6-20260603075153_openwrt_24.10.6_mipsel_74kc.ipk
-Size: 1188814
-SHA256sum: 75b06d7f3b65b847d8315f1bb3f3188f355c1119c67848658f782724da2d2574
+Filename: keen-pbr_3.0.6-20260627203002_openwrt_24.10.6_mipsel_74kc.ipk
+Size: 1188974
+SHA256sum: 8ec264971bb9acddc8274c8c8c1ef617e63e0b65aa6487ddb368f52bda2ccb19
 Description:  Policy-based routing daemon for OpenWRT and Keenetic routers with REST API and WebUI
 
 Package: keen-pbr-headless
-Version: 3.0.6-20260603075153
+Version: 3.0.6-20260627203002
 Depends: libc, dnsmasq-full, libatomic1, libcurl4, libnl-core200, libnl-route200, libstdcpp6, zlib, libzstd
 Section: net
 Architecture: mipsel_74kc
 Installed-Size: 1157120
-Filename: keen-pbr-headless_3.0.6-20260603075153_openwrt_24.10.6_mipsel_74kc.ipk
-Size: 467382
-SHA256sum: 0ef2ea1497e79b9e2f968d608c1f21674705ffa1fa067bd9ae2d3216fa1d24bf
+Filename: keen-pbr-headless_3.0.6-20260627203002_openwrt_24.10.6_mipsel_74kc.ipk
+Size: 467524
+SHA256sum: 08f51147d26f8f469674666d79a9de199a54f0f5194a37fc23e556f7c1189943
 Description:  Policy-based routing daemon for OpenWRT and Keenetic routers. REST API and WebUI are NOT included in the headless variant.
 

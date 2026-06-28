@@ -1,5 +1,5 @@
 Package: keen-pbr
-Version: 3.0.6-20260603075153
+Version: 3.0.6-20260627203002
 Depends: libc, dnsmasq-full, libatomic1, libcurl4, libnl-core200, libnl-route200, libstdcpp6, zlib, libzstd
 Source: feeds/base/keen-pbr
 SourceName: keen-pbr
@@ -7,13 +7,13 @@ Section: net
 SourceDateEpoch: 1773709139
 Architecture: arm_arm1176jzf-s_vfp
 Installed-Size: 3020800
-Filename: keen-pbr_3.0.6-20260603075153_openwrt_24.10.6_arm_arm1176jzf-s_vfp.ipk
-Size: 1262473
-SHA256sum: 4714b98d9ca8a31b2ac4a3be7e4ec4b9f981ac9cbf33f8d251b57ff538990945
+Filename: keen-pbr_3.0.6-20260627203002_openwrt_24.10.6_arm_arm1176jzf-s_vfp.ipk
+Size: 1262495
+SHA256sum: 3e9cae092c6d4f7198b4f2ba79009a66bf9fc30353e16f08b09140137ff323a8
 Description:  Policy-based routing daemon for OpenWRT and Keenetic routers with REST API and WebUI
 
 Package: keen-pbr-headless
-Version: 3.0.6-20260603075153
+Version: 3.0.6-20260627203002
 Depends: libc, dnsmasq-full, libatomic1, libcurl4, libnl-core200, libnl-route200, libstdcpp6, zlib, libzstd
 Source: feeds/base/keen-pbr
 SourceName: keen-pbr
@@ -21,8 +21,8 @@ Section: net
 SourceDateEpoch: 1773709139
 Architecture: arm_arm1176jzf-s_vfp
 Installed-Size: 1259520
-Filename: keen-pbr-headless_3.0.6-20260603075153_openwrt_24.10.6_arm_arm1176jzf-s_vfp.ipk
-Size: 521058
-SHA256sum: 988a873bf26a3cdc4080b767a90ada2dc8c35f4d39213c871a654d589ce552a3
+Filename: keen-pbr-headless_3.0.6-20260627203002_openwrt_24.10.6_arm_arm1176jzf-s_vfp.ipk
+Size: 521179
+SHA256sum: e91b774cfc3b613ed4e806c9477a0cc01ceafe78cbecd2252a64591de3250571
 Description:  Policy-based routing daemon for OpenWRT and Keenetic routers. REST API and WebUI are NOT included in the headless variant.
 

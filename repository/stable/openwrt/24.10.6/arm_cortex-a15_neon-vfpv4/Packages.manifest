@@ -1,5 +1,5 @@
 Package: keen-pbr
-Version: 3.0.6-20260603075153
+Version: 3.0.6-20260627203002
 Depends: libc, dnsmasq-full, libatomic1, libcurl4, libnl-core200, libnl-route200, libstdcpp6, zlib, libzstd
 Source: feeds/base/keen-pbr
 SourceName: keen-pbr
@@ -7,13 +7,13 @@ Section: net
 SourceDateEpoch: 1773709139
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 3010560
-Filename: keen-pbr_3.0.6-20260603075153_openwrt_24.10.6_arm_cortex-a15_neon-vfpv4.ipk
-Size: 1260223
-SHA256sum: a095cfca444629fb849e0a7a49bc70e73404952449464649d9a375f5fad3ba56
+Filename: keen-pbr_3.0.6-20260627203002_openwrt_24.10.6_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1260311
+SHA256sum: 341c1fd9cdfb5ec1cbf267771131d96d75f21cf28c6804a8c7657e800b13ceb9
 Description:  Policy-based routing daemon for OpenWRT and Keenetic routers with REST API and WebUI
 
 Package: keen-pbr-headless
-Version: 3.0.6-20260603075153
+Version: 3.0.6-20260627203002
 Depends: libc, dnsmasq-full, libatomic1, libcurl4, libnl-core200, libnl-route200, libstdcpp6, zlib, libzstd
 Source: feeds/base/keen-pbr
 SourceName: keen-pbr
@@ -21,8 +21,8 @@ Section: net
 SourceDateEpoch: 1773709139
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 1259520
-Filename: keen-pbr-headless_3.0.6-20260603075153_openwrt_24.10.6_arm_cortex-a15_neon-vfpv4.ipk
-Size: 520907
-SHA256sum: 1d35f44afc3bc7f33b2e7d47d3b3816deb7df21eb513df4578507089c0683b41
+Filename: keen-pbr-headless_3.0.6-20260627203002_openwrt_24.10.6_arm_cortex-a15_neon-vfpv4.ipk
+Size: 520797
+SHA256sum: c3aeece43055605bab80ff755c7c018df6a4c6958b3be8bffecb76f6b84b1460
 Description:  Policy-based routing daemon for OpenWRT and Keenetic routers. REST API and WebUI are NOT included in the headless variant.
 
