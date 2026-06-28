@@ -1,22 +1,22 @@
 Package: keen-pbr
-Version: 3.0.6-20260627203002
+Version: 3.0.7-20260628163912
 Depends: libc, dnsmasq-full, libatomic1, libcurl4, libnl-core200, libnl-route200, libstdcpp6, zlib, libzstd
 Section: net
 Architecture: armeb_xscale
 Installed-Size: 3031040
-Filename: keen-pbr_3.0.6-20260627203002_openwrt_24.10.6_armeb_xscale.ipk
-Size: 1266210
-SHA256sum: de5435b4cd6f06092802508e92d6705164d065845fd0451659f101856d10027f
+Filename: keen-pbr_3.0.7-20260628163912_openwrt_24.10.6_armeb_xscale.ipk
+Size: 1266216
+SHA256sum: b122f96f517e45820dd1927fa34c301ae5b1ccf005e611bbba76d3ac5797c303
 Description:  Policy-based routing daemon for OpenWRT and Keenetic routers with REST API and WebUI
 
 Package: keen-pbr-headless
-Version: 3.0.6-20260627203002
+Version: 3.0.7-20260628163912
 Depends: libc, dnsmasq-full, libatomic1, libcurl4, libnl-core200, libnl-route200, libstdcpp6, zlib, libzstd
 Section: net
 Architecture: armeb_xscale
 Installed-Size: 1269760
-Filename: keen-pbr-headless_3.0.6-20260627203002_openwrt_24.10.6_armeb_xscale.ipk
-Size: 523909
-SHA256sum: b74ff55346c11d9b8a1bb0b611bebb356e4d4b5fd71b9676c066f8ebe06488a8
+Filename: keen-pbr-headless_3.0.7-20260628163912_openwrt_24.10.6_armeb_xscale.ipk
+Size: 523911
+SHA256sum: e14928a61b097c4d41e6748b55780a74a671deda34ae41a451544c8af0bc73f1
 Description:  Policy-based routing daemon for OpenWRT and Keenetic routers. REST API and WebUI are NOT included in the headless variant.
 

@@ -1,22 +1,22 @@
 Package: keen-pbr
-Version: 3.0.6-20260627203002
+Version: 3.0.7-20260628163912
 Depends: libc, dnsmasq-full, libatomic1, libcurl4, libnl-core200, libnl-route200, libstdcpp6, zlib, libzstd
 Section: net
 Architecture: arm_cortex-a9
 Installed-Size: 3020800
-Filename: keen-pbr_3.0.6-20260627203002_openwrt_24.10.6_arm_cortex-a9.ipk
-Size: 1261244
-SHA256sum: dd410c45934ba3c6b06f2af40e7874f77a16ec115ad48c8ac2df68ce7bd63c0d
+Filename: keen-pbr_3.0.7-20260628163912_openwrt_24.10.6_arm_cortex-a9.ipk
+Size: 1261266
+SHA256sum: 29a48a1ebee895c751db6338a6073f300b39d5ab42b50fa09183af76d979bb17
 Description:  Policy-based routing daemon for OpenWRT and Keenetic routers with REST API and WebUI
 
 Package: keen-pbr-headless
-Version: 3.0.6-20260627203002
+Version: 3.0.7-20260628163912
 Depends: libc, dnsmasq-full, libatomic1, libcurl4, libnl-core200, libnl-route200, libstdcpp6, zlib, libzstd
 Section: net
 Architecture: arm_cortex-a9
 Installed-Size: 1259520
-Filename: keen-pbr-headless_3.0.6-20260627203002_openwrt_24.10.6_arm_cortex-a9.ipk
-Size: 521456
-SHA256sum: 76c1f8b59d020513f2dd9e34ae85bf3ba2e30ef8187d4e99799ae9fdad238a89
+Filename: keen-pbr-headless_3.0.7-20260628163912_openwrt_24.10.6_arm_cortex-a9.ipk
+Size: 521451
+SHA256sum: 982f6048f93825af8e73460cc86e3476ba9eeb57fc3074edd392273e0d1a36db
 Description:  Policy-based routing daemon for OpenWRT and Keenetic routers. REST API and WebUI are NOT included in the headless variant.
 

@@ -1,5 +1,5 @@
 Package: keen-pbr
-Version: 3.0.6-20260627203002
+Version: 3.0.7-20260628163912
 Depends: libc, dnsmasq-full, libatomic1, libcurl4, libnl-core200, libnl-route200, libstdcpp6, zlib, libzstd
 Source: feeds/base/keen-pbr
 SourceName: keen-pbr
@@ -7,13 +7,13 @@ Section: net
 SourceDateEpoch: 1773709139
 Architecture: i386_pentium-mmx
 Installed-Size: 3225600
-Filename: keen-pbr_3.0.6-20260627203002_openwrt_24.10.6_i386_pentium-mmx.ipk
-Size: 1316158
-SHA256sum: 8906c0f48d26d6fcf060ec78a74ca2b29d9bd3c064f99acc207eed3183eeef59
+Filename: keen-pbr_3.0.7-20260628163912_openwrt_24.10.6_i386_pentium-mmx.ipk
+Size: 1316143
+SHA256sum: 183528cfaac061e80dd86afd9bfaabd116204db80e5cc197e4b66b9a6700c5f8
 Description:  Policy-based routing daemon for OpenWRT and Keenetic routers with REST API and WebUI
 
 Package: keen-pbr-headless
-Version: 3.0.6-20260627203002
+Version: 3.0.7-20260628163912
 Depends: libc, dnsmasq-full, libatomic1, libcurl4, libnl-core200, libnl-route200, libstdcpp6, zlib, libzstd
 Source: feeds/base/keen-pbr
 SourceName: keen-pbr
@@ -21,8 +21,8 @@ Section: net
 SourceDateEpoch: 1773709139
 Architecture: i386_pentium-mmx
 Installed-Size: 1413120
-Filename: keen-pbr-headless_3.0.6-20260627203002_openwrt_24.10.6_i386_pentium-mmx.ipk
-Size: 559576
-SHA256sum: 6c5270f9b60f37d4f3c3817e8a358adde1dbd70a442b186893919ca92c189f9f
+Filename: keen-pbr-headless_3.0.7-20260628163912_openwrt_24.10.6_i386_pentium-mmx.ipk
+Size: 559593
+SHA256sum: 8fc1761ce397c3cbee3ceecc0fd384594821f00ef8456d63fa305eca6f1bbed0
 Description:  Policy-based routing daemon for OpenWRT and Keenetic routers. REST API and WebUI are NOT included in the headless variant.
 

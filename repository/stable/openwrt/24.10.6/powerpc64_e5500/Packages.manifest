@@ -1,5 +1,5 @@
 Package: keen-pbr
-Version: 3.0.6-20260627203002
+Version: 3.0.7-20260628163912
 Depends: libc, dnsmasq-full, libatomic1, libcurl4, libnl-core200, libnl-route200, libstdcpp6, zlib, libzstd
 Source: feeds/base/keen-pbr
 SourceName: keen-pbr
@@ -7,13 +7,13 @@ Section: net
 SourceDateEpoch: 1773709139
 Architecture: powerpc64_e5500
 Installed-Size: 4341760
-Filename: keen-pbr_3.0.6-20260627203002_openwrt_24.10.6_powerpc64_e5500.ipk
-Size: 1458389
-SHA256sum: 98dcfc99dd09a87481bdefff53f4942d92341b6f0f14e5aa5ead1a7f5456a595
+Filename: keen-pbr_3.0.7-20260628163912_openwrt_24.10.6_powerpc64_e5500.ipk
+Size: 1458400
+SHA256sum: 3f313f452bc99aaa83a99384eaf6df5f35c313104cb4c8b7cb72c94720456cd2
 Description:  Policy-based routing daemon for OpenWRT and Keenetic routers with REST API and WebUI
 
 Package: keen-pbr-headless
-Version: 3.0.6-20260627203002
+Version: 3.0.7-20260628163912
 Depends: libc, dnsmasq-full, libatomic1, libcurl4, libnl-core200, libnl-route200, libstdcpp6, zlib, libzstd
 Source: feeds/base/keen-pbr
 SourceName: keen-pbr
@@ -21,8 +21,8 @@ Section: net
 SourceDateEpoch: 1773709139
 Architecture: powerpc64_e5500
 Installed-Size: 2263040
-Filename: keen-pbr-headless_3.0.6-20260627203002_openwrt_24.10.6_powerpc64_e5500.ipk
-Size: 661776
-SHA256sum: 8ab60949d22d92b988bfed365299ff9c086ffb5deafb1062f088580ff3c60b3e
+Filename: keen-pbr-headless_3.0.7-20260628163912_openwrt_24.10.6_powerpc64_e5500.ipk
+Size: 661755
+SHA256sum: bc00ce44db6282f7dadb14fbd9e301f8ee8ded0a97a150cb9825cbd03b201138
 Description:  Policy-based routing daemon for OpenWRT and Keenetic routers. REST API and WebUI are NOT included in the headless variant.
 
