@@ -1,22 +1,22 @@
 Package: keen-pbr
-Version: 3.0.7-20260628163912
-Depends: libc, dnsmasq-full, libatomic1, libcurl4, libnl-core200, libnl-route200, libstdcpp6, zlib, libzstd
+Version: 3.1.0-20260725133207
+Depends: libc, conntrack, dnsmasq-full, libatomic1, libcurl4, libnl-core200, libnl-route200, libstdcpp6, libunwind8, zlib, libzstd
 Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 3010560
-Filename: keen-pbr_3.0.7-20260628163912_openwrt_24.10.6_arm_cortex-a9_vfpv3-d16.ipk
-Size: 1262452
-SHA256sum: 86897f059bd8eff3739561cfb01a0ffb726268381f5bf0a8dfcb52004b47c21d
+Installed-Size: 3543040
+Filename: keen-pbr_3.1.0-20260725133207_openwrt_24.10.6_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1449366
+SHA256sum: 9f132c09c9585c6464882e074f5f615ba54efda3e68a65ed9e0399095e3dc9c7
 Description:  Policy-based routing daemon for OpenWRT and Keenetic routers with REST API and WebUI
 
 Package: keen-pbr-headless
-Version: 3.0.7-20260628163912
-Depends: libc, dnsmasq-full, libatomic1, libcurl4, libnl-core200, libnl-route200, libstdcpp6, zlib, libzstd
+Version: 3.1.0-20260725133207
+Depends: libc, conntrack, dnsmasq-full, libatomic1, libcurl4, libnl-core200, libnl-route200, libstdcpp6, libunwind8, zlib, libzstd
 Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 1259520
-Filename: keen-pbr-headless_3.0.7-20260628163912_openwrt_24.10.6_arm_cortex-a9_vfpv3-d16.ipk
-Size: 520965
-SHA256sum: 918cb88482e1339cc16cc69f578cb4b40349d3e3f2cf7bd515de604cc5a52016
+Installed-Size: 1566720
+Filename: keen-pbr-headless_3.1.0-20260725133207_openwrt_24.10.6_arm_cortex-a9_vfpv3-d16.ipk
+Size: 627383
+SHA256sum: 1709fc64d96941b8ff4e67ac5d403026200556f8ffd467f8823784be6015d6e5
 Description:  Policy-based routing daemon for OpenWRT and Keenetic routers. REST API and WebUI are NOT included in the headless variant.
 

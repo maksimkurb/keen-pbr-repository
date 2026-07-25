@@ -1,22 +1,22 @@
 Package: keen-pbr
-Version: 3.0.7-20260628163912
-Depends: libc, dnsmasq-full, libatomic1, libcurl4, libnl-core200, libnl-route200, libstdcpp6, zlib, libzstd
+Version: 3.1.0-20260725133207
+Depends: libc, conntrack, dnsmasq-full, libatomic1, libcurl4, libnl-core200, libnl-route200, libstdcpp6, zlib, libzstd
 Section: net
 Architecture: mipsel_24kc_24kf
-Installed-Size: 2836480
-Filename: keen-pbr_3.0.7-20260628163912_openwrt_24.10.6_mipsel_24kc_24kf.ipk
-Size: 1186279
-SHA256sum: 677033b25a2d724563a887c0df4560b3435153886ec84caafd480c38d28cc948
+Installed-Size: 3379200
+Filename: keen-pbr_3.1.0-20260725133207_openwrt_24.10.6_mipsel_24kc_24kf.ipk
+Size: 1355779
+SHA256sum: feba468e625c5aa65f2facd295c51831e8242535e74174c5bffe47582757f86e
 Description:  Policy-based routing daemon for OpenWRT and Keenetic routers with REST API and WebUI
 
 Package: keen-pbr-headless
-Version: 3.0.7-20260628163912
-Depends: libc, dnsmasq-full, libatomic1, libcurl4, libnl-core200, libnl-route200, libstdcpp6, zlib, libzstd
+Version: 3.1.0-20260725133207
+Depends: libc, conntrack, dnsmasq-full, libatomic1, libcurl4, libnl-core200, libnl-route200, libstdcpp6, zlib, libzstd
 Section: net
 Architecture: mipsel_24kc_24kf
-Installed-Size: 1157120
-Filename: keen-pbr-headless_3.0.7-20260628163912_openwrt_24.10.6_mipsel_24kc_24kf.ipk
-Size: 464738
-SHA256sum: ec711b743d6c590cf203de5e42d5ce8dc8ec32a3a9debcc3ed7e5271602675ce
+Installed-Size: 1474560
+Filename: keen-pbr-headless_3.1.0-20260725133207_openwrt_24.10.6_mipsel_24kc_24kf.ipk
+Size: 556222
+SHA256sum: fa07167aa8d166ff413d6ef3ffc3bcf72201eb0abdd6a5c8ca74f655243b4443
 Description:  Policy-based routing daemon for OpenWRT and Keenetic routers. REST API and WebUI are NOT included in the headless variant.
 

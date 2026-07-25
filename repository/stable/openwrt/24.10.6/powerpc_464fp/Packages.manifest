@@ -1,28 +1,28 @@
 Package: keen-pbr
-Version: 3.0.7-20260628163912
-Depends: libc, dnsmasq-full, libatomic1, libcurl4, libnl-core200, libnl-route200, libstdcpp6, zlib, libzstd
+Version: 3.1.0-20260725133207
+Depends: libc, conntrack, dnsmasq-full, libatomic1, libcurl4, libnl-core200, libnl-route200, libstdcpp6, zlib, libzstd
 Source: feeds/base/keen-pbr
 SourceName: keen-pbr
 Section: net
 SourceDateEpoch: 1773709139
 Architecture: powerpc_464fp
-Installed-Size: 3758080
-Filename: keen-pbr_3.0.7-20260628163912_openwrt_24.10.6_powerpc_464fp.ipk
-Size: 1384766
-SHA256sum: 42f9e44a08089d81f688c655984d3fc1192847dfc5fe327e71e829ae59a2f757
+Installed-Size: 4423680
+Filename: keen-pbr_3.1.0-20260725133207_openwrt_24.10.6_powerpc_464fp.ipk
+Size: 1565720
+SHA256sum: 46a53ec3f59c4813ea7bd4c87a622f7dfbc7227617b9e0407cce0b9c4a4b4fac
 Description:  Policy-based routing daemon for OpenWRT and Keenetic routers with REST API and WebUI
 
 Package: keen-pbr-headless
-Version: 3.0.7-20260628163912
-Depends: libc, dnsmasq-full, libatomic1, libcurl4, libnl-core200, libnl-route200, libstdcpp6, zlib, libzstd
+Version: 3.1.0-20260725133207
+Depends: libc, conntrack, dnsmasq-full, libatomic1, libcurl4, libnl-core200, libnl-route200, libstdcpp6, zlib, libzstd
 Source: feeds/base/keen-pbr
 SourceName: keen-pbr
 Section: net
 SourceDateEpoch: 1773709139
 Architecture: powerpc_464fp
-Installed-Size: 1802240
-Filename: keen-pbr-headless_3.0.7-20260628163912_openwrt_24.10.6_powerpc_464fp.ipk
-Size: 608266
-SHA256sum: 4f835ed5f51525c84a2ca60ee4bda0153c2847e5e84838d0267982362ef2b507
+Installed-Size: 2201600
+Filename: keen-pbr-headless_3.1.0-20260725133207_openwrt_24.10.6_powerpc_464fp.ipk
+Size: 703932
+SHA256sum: 1660d6547a4a1665a1b69267bf0ab3f6c98713a79daf27e669e2232f36ba4453
 Description:  Policy-based routing daemon for OpenWRT and Keenetic routers. REST API and WebUI are NOT included in the headless variant.
 
