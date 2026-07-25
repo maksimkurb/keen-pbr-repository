@@ -1,24 +1,24 @@
 Package: keen-pbr
-Version: 3.0.7-20260628163912
-Depends: libc, libssp, librt, libpthread, dnsmasq, ipset, iptables, libatomic, libcurl, libnl-core, libnl-route, libstdcpp, zlib, libzstd
+Version: 3.1.0-20260725133207
+Depends: libc, libssp, librt, libpthread, conntrack, dnsmasq, ipset, iptables, libatomic, libcurl, libnl-core, libnl-route, libstdcpp, zlib, libzstd
 Provides: keen-pbr-any
 Section: net
 Architecture: aarch64-3.10
-Installed-Size: 3276800
-Filename: keen-pbr_3.0.7-20260628163912_keenetic_aarch64-3.10.ipk
-Size: 1341107
-SHA256sum: cc3072b18558dfc3c0a9c72372699584da742e8354d12c0bc65a84efccf5e934
+Installed-Size: 3635200
+Filename: keen-pbr_3.1.0-20260725133207_keenetic_aarch64-3.10.ipk
+Size: 1480387
+SHA256sum: 224a575a454d0fc3f18eb337d29cc0f3badfb079cd80cee77ed04ddcdc0a5a24
 Description:  Policy-based routing daemon for OpenWRT and Keenetic routers with REST API and WebUI.
 
 Package: keen-pbr-headless
-Version: 3.0.7-20260628163912
-Depends: libc, libssp, librt, libpthread, dnsmasq, ipset, iptables, libatomic, libcurl, libnl-core, libnl-route, libstdcpp, zlib, libzstd
+Version: 3.1.0-20260725133207
+Depends: libc, libssp, librt, libpthread, conntrack, dnsmasq, ipset, iptables, libatomic, libcurl, libnl-core, libnl-route, libstdcpp, zlib, libzstd
 Provides: keen-pbr-headless-any
 Section: net
 Architecture: aarch64-3.10
-Installed-Size: 1546240
-Filename: keen-pbr-headless_3.0.7-20260628163912_keenetic_aarch64-3.10.ipk
-Size: 603782
-SHA256sum: a9c09e41df929007eaaad8e7a334c655738ba7cbd3aff237eff4551afecf8c08
+Installed-Size: 1699840
+Filename: keen-pbr-headless_3.1.0-20260725133207_keenetic_aarch64-3.10.ipk
+Size: 669817
+SHA256sum: dc536509ec1c37925c73b105f4d61da085e7454f0627e123d3ae0fdf84c49c3e
 Description:  Policy-based routing daemon for OpenWRT and Keenetic routers. REST API and WebUI are NOT included in the headless variant.
 
