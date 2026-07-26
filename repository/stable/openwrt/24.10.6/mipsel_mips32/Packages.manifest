@@ -1,28 +1,28 @@
 Package: keen-pbr
-Version: 3.1.0-20260725133207
+Version: 3.1.1-20260726184938
 Depends: libc, conntrack, dnsmasq-full, libatomic1, libcurl4, libnl-core200, libnl-route200, libstdcpp6, zlib, libzstd
 Source: feeds/base/keen-pbr
 SourceName: keen-pbr
 Section: net
 SourceDateEpoch: 1773709139
 Architecture: mipsel_mips32
-Installed-Size: 3901440
-Filename: keen-pbr_3.1.0-20260725133207_openwrt_24.10.6_mipsel_mips32.ipk
-Size: 1448020
-SHA256sum: 7fc0d59decafde7ccdfdd241c9001714d9cd9c81773ef9a2f3388418653b23b5
+Installed-Size: 3962880
+Filename: keen-pbr_3.1.1-20260726184938_openwrt_24.10.6_mipsel_mips32.ipk
+Size: 1461064
+SHA256sum: 5373c88e8639d84f2ca9a69c72d30e30a1dc4bf4f8e41244df3fda778b74c923
 Description:  Policy-based routing daemon for OpenWRT and Keenetic routers with REST API and WebUI
 
 Package: keen-pbr-headless
-Version: 3.1.0-20260725133207
+Version: 3.1.1-20260726184938
 Depends: libc, conntrack, dnsmasq-full, libatomic1, libcurl4, libnl-core200, libnl-route200, libstdcpp6, zlib, libzstd
 Source: feeds/base/keen-pbr
 SourceName: keen-pbr
 Section: net
 SourceDateEpoch: 1773709139
 Architecture: mipsel_mips32
-Installed-Size: 1802240
-Filename: keen-pbr-headless_3.1.0-20260725133207_openwrt_24.10.6_mipsel_mips32.ipk
-Size: 623085
-SHA256sum: b4b1e416f57710c459e2cc31897a229f926bfba66fed4395004010db16012e4f
+Installed-Size: 1873920
+Filename: keen-pbr-headless_3.1.1-20260726184938_openwrt_24.10.6_mipsel_mips32.ipk
+Size: 632755
+SHA256sum: 7194e39e88d7343c335232a72dcea3822dcdb8e9c74d50b4be7b4def10909b18
 Description:  Policy-based routing daemon for OpenWRT and Keenetic routers. REST API and WebUI are NOT included in the headless variant.
 
