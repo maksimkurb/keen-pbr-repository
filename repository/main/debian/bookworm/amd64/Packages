@@ -1,0 +1,41 @@
+Package: keen-pbr
+Version: 3.1.1-20260804080540
+Architecture: amd64
+Maintainer: Maxim Kurbatov <maxim+keen-pbr@kurb.me>
+Installed-Size: 4598
+Depends: libc6 (>= 2.34), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.0), libnl-3-200 (>= 3.2.7), libnl-route-3-200 (>= 3.2.21), libstdc++6 (>= 12), libunwind8, dnsmasq, conntrack
+Suggests: xtables-addons-dkms
+Filename: ./keen-pbr_3.1.1-20260804080540_debian_amd64.deb
+Size: 1581548
+MD5sum: f06047d4ad3053d2699fffdeb371bb01
+SHA1: c2e438d7574f9e695d324cfa561b22fac1f9fc8c
+SHA256: 87cda8e120abecc687fba0b42ad8fc607165e6ec5d229d3bbf3c29c4d2a5d51e
+Section: net
+Priority: optional
+Homepage: https://github.com/maksimkurb/keen-pbr
+Description: Policy-based routing daemon with REST API and Web UI
+ keen-pbr routes traffic selectively by IPs, CIDRs, and domains.
+ This package includes the daemon, REST API, dnsmasq integration helper,
+ and bundled frontend assets.
+ Install xtables-addons-dkms only when using the iptables backend.
+
+Package: keen-pbr-headless
+Version: 3.1.1-20260804080540
+Architecture: amd64
+Maintainer: Maxim Kurbatov <maxim+keen-pbr@kurb.me>
+Installed-Size: 2420
+Depends: libc6 (>= 2.34), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.0), libnl-3-200 (>= 3.2.7), libnl-route-3-200 (>= 3.2.21), libstdc++6 (>= 12), libunwind8, dnsmasq, conntrack
+Suggests: xtables-addons-dkms
+Filename: ./keen-pbr-headless_3.1.1-20260804080540_debian_amd64.deb
+Size: 785460
+MD5sum: 631f6ce50b58cfdf47d6e4b73f118308
+SHA1: d1a6c399c7dc4abfd21b041f311a708aaa28e046
+SHA256: a37753d0a574d0269b1a1264350a8973de9b286e66943fbdd9c0a37448249539
+Section: net
+Priority: optional
+Homepage: https://github.com/maksimkurb/keen-pbr
+Description: Policy-based routing daemon without REST API and Web UI
+ keen-pbr routes traffic selectively by IPs, CIDRs, and domains.
+ This package installs the daemon and helper scripts without the REST API or frontend assets.
+ Install xtables-addons-dkms only when using the iptables backend.
+
