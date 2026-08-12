@@ -1,15 +1,15 @@
 Package: keen-pbr
-Version: 3.1.1-20260811213557
+Version: 3.1.1-20260812042200
 Architecture: amd64
 Maintainer: Maxim Kurbatov <maxim+keen-pbr@kurb.me>
-Installed-Size: 3824
+Installed-Size: 3840
 Depends: libc6 (>= 2.34), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.0), libnl-3-200 (>= 3.2.7), libnl-route-3-200 (>= 3.2.21), libstdc++6 (>= 12), libunwind8, zlib1g (>= 1:1.1.4), dnsmasq, conntrack
 Suggests: xtables-addons-dkms
-Filename: ./keen-pbr_3.1.1-20260811213557_debian_amd64.deb
-Size: 1428184
-MD5sum: c1ef09c98a42f3278c272f1702900b46
-SHA1: 2f8e5c9fd93a17ac25ea725fecf50faab3d641db
-SHA256: 9999f519c897a1fcf4040e4ffe4db3adc7bdd1dd496a6aae602fc5f79df22aeb
+Filename: ./keen-pbr_3.1.1-20260812042200_debian_amd64.deb
+Size: 1433864
+MD5sum: 3d86f8ab5fde9174c984a7a4e809de17
+SHA1: 88a7c631be75b11f1790acc8a67eb121d7ee016c
+SHA256: 198ad131f39415ced0e77b172c84f3ff2e1cddc0025eae8ef0ebeeb027b36be1
 Section: net
 Priority: optional
 Homepage: https://github.com/maksimkurb/keen-pbr
@@ -20,17 +20,17 @@ Description: Policy-based routing daemon with REST API and Web UI
  Install xtables-addons-dkms only when using the iptables backend.
 
 Package: keen-pbr-headless
-Version: 3.1.1-20260811213557
+Version: 3.1.1-20260812042200
 Architecture: amd64
 Maintainer: Maxim Kurbatov <maxim+keen-pbr@kurb.me>
 Installed-Size: 2572
 Depends: libc6 (>= 2.34), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.0), libnl-3-200 (>= 3.2.7), libnl-route-3-200 (>= 3.2.21), libstdc++6 (>= 12), libunwind8, dnsmasq, conntrack
 Suggests: xtables-addons-dkms
-Filename: ./keen-pbr-headless_3.1.1-20260811213557_debian_amd64.deb
-Size: 842960
-MD5sum: 9e72ffd75a14fb2851dc65964a58dd49
-SHA1: 9ff0175b8d06912055d0b9a51be1637332bc6502
-SHA256: ed2baa5cf8d4da58c54aa1f44cc9165623b9df623d64b2243a6f80444fe9209b
+Filename: ./keen-pbr-headless_3.1.1-20260812042200_debian_amd64.deb
+Size: 842756
+MD5sum: 2b5f0039cdecf7fd0c8bd0eaaf49ba9e
+SHA1: bdceae1c70a1429cf2a912a7150aeec5a669ff50
+SHA256: f6776d1c70447ca8e56333ce0df8ecfd715537becdbc545a0025d083b763aaed
 Section: net
 Priority: optional
 Homepage: https://github.com/maksimkurb/keen-pbr
